@@ -12,11 +12,10 @@ int fibonacci(int n) {
     }
 }
 
-int sequencia(int n) {
+void sequencia(int n) {
     printf("Sequencia ate a posicao %i:\n", n);
     for (int i = 1; i <= n; i++) {
         printf("%i ", fibonacci(i));
     }
-    printf("\n");
-    return 0; 
+    printf("\n");   
 }
