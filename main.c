@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "fib.h"
 
-int sequencia(int n);
+
 
 int main() {
     int n, fib;
