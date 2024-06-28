@@ -4,6 +4,6 @@
 #define FIB_H
 
 int fibonacci(int n);
-int sequencia(int n);
+void sequencia(int n);
 
 #endif // FIB_H
